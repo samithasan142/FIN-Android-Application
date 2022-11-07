@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication2">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/index5"
+        android:label="FIN"
+        android:roundIcon="@drawable/index5"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication2">
+        <activity android:name=".SendLocation"></activity>
+        <activity android:name=".ForgetPass" />
+        <activity android:name=".BloodSearchResult" />
+        <activity android:name=".blood" />
+        <activity android:name=".AfterLogin" />
+        <activity android:name=".Register" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".EmergencyLogin" />
+        <activity android:name=".Login_Emergency" />
+        <activity android:name=".loginRegister_main" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
